@@ -1,15 +1,15 @@
 # Typeflow for macOS
 
-Typeflow is a native menu-bar keyboard assistant that works across apps. It shows the suggested word beside the text caret, completes it on Space, and dismisses a visible suggestion on Backspace without sending that Backspace to the active app. Escape also dismisses. The current prototype uses a small built-in English word list and keeps no saved typing history.
+Typeflow is a native menu-bar typing assistant that offers word completions across apps. Space accepts a suggestion; Backspace dismisses the visible suggestion without deleting your text. The prototype uses a small English word list and stores no typing history.
 
-## Get the app and source
+## Download and install
 
-Download **Typeflow-project.zip** from this repository and extract it. The archive contains the signed `Typeflow.app` bundle, Objective-C source, app metadata, and the build script.
+Download [Typeflow-project-v1.0.1.zip](Typeflow-project-v1.0.1.zip) and extract it. Open `Typeflow.app`. If macOS asks you to confirm opening the app, choose **Open**.
 
-Open `Typeflow.app` in Finder. If macOS asks you to confirm opening this locally built app, choose **Open**. Then enable Typeflow under **System Settings → Privacy & Security → Accessibility** and **Input Monitoring**, and relaunch it. The `t.` menu-bar icon lets you pause or quit the app.
+Then enable Typeflow in both **System Settings → Privacy & Security → Accessibility** and **Input Monitoring**, and relaunch the app. Click the `t.` menu-bar icon. It should say **Keyboard listener active**. If it says keyboard access is needed, one or both permissions are still off.
 
-macOS requires these permissions because Typeflow reads keyboard events system-wide and inserts accepted completions into the active app. It skips fields macOS identifies as secure text fields. Keystrokes and suggestions are processed locally and are not stored or transmitted.
+Typeflow needs these permissions to read keyboard events system-wide and insert accepted completions. It skips fields macOS identifies as secure. Keystrokes are processed locally and are not stored or transmitted.
 
 ## Build from source
 
-In the extracted project folder, run `./build-macos.sh`. It compiles `native/main.m` with the macOS SDK, creates `Typeflow.app`, and applies an ad-hoc signature.
+The ZIP includes the Objective-C source and `build-macos.sh`. In the extracted project folder, run `./build-macos.sh` to rebuild `Typeflow.app`.
