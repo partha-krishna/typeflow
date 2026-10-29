@@ -4,9 +4,9 @@ Typeflow is a native menu-bar typing assistant that offers word completions acro
 
 ## Download and install
 
-Download [Typeflow-project-v1.0.1.zip](Typeflow-project-v1.0.1.zip) and extract it. Open `Typeflow.app`. If macOS asks you to confirm opening the app, choose **Open**.
+Download [Typeflow-project-v1.0.2.zip](Typeflow-project-v1.0.2.zip) and extract it. Open `Typeflow.app`. If macOS asks you to confirm opening the app, choose **Open**.
 
-Then enable Typeflow in both **System Settings → Privacy & Security → Accessibility** and **Input Monitoring**, and relaunch the app. Click the `t.` menu-bar icon. It should say **Keyboard listener active**. If it says keyboard access is needed, one or both permissions are still off.
+Allow Typeflow when macOS requests keyboard listening, accessibility, and text insertion access. In **System Settings → Privacy & Security**, enable Typeflow in **Accessibility** and **Input Monitoring**. The `t.` menu-bar icon reports each permission separately and includes **Request / Retry Keyboard Access…**. The listener status should read **Keyboard listener active**.
 
 Typeflow needs these permissions to read keyboard events system-wide and insert accepted completions. It skips fields macOS identifies as secure. Keystrokes are processed locally and are not stored or transmitted.
 
