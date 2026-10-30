@@ -1,6 +1,6 @@
 # Typeflow for macOS
 
-Typeflow is a native menu-bar typing assistant that offers word completions across apps. It reads the full word around the caret, so typing or editing in the middle of a word does not make it predict from only the last key. A compact list appears below the word. Space accepts the highlighted suggestion; Up and Down move through the list; Tab and Return also accept. Backspace dismisses the list without deleting text, and Escape dismisses it too. Suggestions use macOS word completions plus a small local fallback list. Typing history is not saved.
+Typeflow is a revolutionary new way to type on Computers. Typeflow intelligently picks up on what you are typing and it's context, and will automatically type it for you, saving you lots of time and effort.
 
 ## Download and install
 
