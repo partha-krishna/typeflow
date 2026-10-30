@@ -14,5 +14,5 @@ Typeflow needs these permissions to read keyboard events system-wide and insert 
 
 The ZIP includes the Objective-C source and `build-macos.sh`. In the extracted project folder, run `./build-macos.sh` to rebuild `Typeflow.app`.
 
-##Images
+## Images
 <img width="474" height="361" alt="Screenshot 2026-10-29 at 8 06 56 PM" src="https://github.com/user-attachments/assets/a2d5b132-21d1-4831-8666-b8a565e6a96b" />
