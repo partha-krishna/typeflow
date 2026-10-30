@@ -4,7 +4,7 @@ Typeflow is a revolutionary new way to type on Computers. Typeflow intelligently
 
 ## Download and install
 
-Download [Typeflow-project-v1.1.0.zip](Typeflow-project-v1.1.0.zip) and extract it. Open `Typeflow.app`. If macOS asks you to confirm opening the app, choose **Open**, and go to **System Setings** and allow the app in **Privacy & Security**.
+Download the Typeflow .pkg file and open it. Open `Typeflow.app`. If macOS asks you to confirm opening the app, choose **Open**, and go to **System Setings** and allow the app in **Privacy & Security**.
 
 Allow Typeflow when macOS requests keyboard listening, accessibility, and text insertion access. In **System Settings → Privacy & Security**, enable Typeflow in **Accessibility** and **Input Monitoring**. The `t.` menu-bar icon reports each permission separately and includes **Request / Retry Keyboard Access…**. The listener status should read **Keyboard listener active**.
 
